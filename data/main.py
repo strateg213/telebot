@@ -32,6 +32,10 @@ async def echo_message(msg: types.Message):
     await bot.send_message(msg.from_user.id, msg.text)
 
 
+def summ(a,b):
+       return a + b
+
 if __name__ == '__main__':
+    print(summ(2,220))
     # get_data()
-    executor.start_polling(dp)
+   # executor.start_polling(dp)
