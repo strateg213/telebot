@@ -2,7 +2,7 @@ import requests
 from datetime import datetime
 from aiogram import Bot, types
 from aiogram.dispatcher import Dispatcher
-from aiogram.utils import executor
+# from aiogram.utils import executor
 from config import TOKEN
 
 
@@ -37,6 +37,5 @@ def summ(a, b):
 
 
 if __name__ == '__main__':
-    print(summ(2, 220))
-    # get_data()
+    get_data()
 # executor.start_polling(dp)
